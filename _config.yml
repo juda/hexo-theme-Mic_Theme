@@ -4,49 +4,48 @@
 
 # Head info
 head:
-    favicon: "/img/logo_miccall.png"
-    keywords: miccall
-    backgroundpic : "img/bg.jpg"
+    favicon: "/img/favicon.ico"
+    keywords: Hongson Society
+    backgroundpic : "img/1810-Chinese_style.jpg"
 
 Intro:
-    name: MICCALL
-    slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
-    HeadButton: MICCALL
+    name: Hongson Society
+    slogan: 匯聲社是港大PGSA旗下的藝術愛好者社團，也是香港大學主要面對研究生群體的最大的涵蓋藝術、文化、體育等多方面的綜合類興趣社團。其下分為音樂中心、舞蹈中心、話劇中心、體育中心等
+    HeadButton: Hongson Society
 
 Nav:
-    Home_name: 主页
+    Home_name: Index
     is_use_categories : true 
-    categories_name: 分类
+    categories_name: Categories
     is_use_archives : false
-    archives_name: 归档
+    archives_name: Archives
     
     #Social
     # for more icons, please see http://fontawesome.io/icons/#brand
     icon:
-        github: https://github.com/miccall
-        500px: http://500px.com
+        instagram: https://www.instagram.com/hkuhas/
+        facebook: https://www.facebook.com/hkuhas
+        youtube: https://www.youtube.com/channel/UCfdLTs4dGXcT00rboRK279g
         
     pages:
-        简历: 
+        About: 
             link: "/about/"
-        团队 :
-            link: "/group/"
-        图库 :
+        Member :
+            link: "/member/"
+        Gallery :
             link: "/gallery/"
-        标签:
-            link: "/tag/"
         #自定义标签名
         #   link：“路径”
 
 MainFirst:
-    name: Miccall Metro
-    description: Technical  Artist  of  Games   
-    pic_url: /images/me.jpg
-    goto_ulr: ""
+    name: Join us today!
+    description: Hongson Society is the only interest-oriented arts society in HKU for postgraduate students! 
+    pic_url: 
+    goto_ulr: https://docs.google.com/forms/d/e/1FAIpQLSc9mqOrecneZX9lZI3FlC7_mzpn1WJFaebkio_QkGtRqPJBeA/viewform
 
 Gallery :
     title: Mr.metro 
-    description: Just another fine responsive 
+    description: The moment 
 
 # ---------------------------------------------------------------
 # Style Settings
@@ -64,7 +63,7 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 # Available value of "use":
 #     duoshuo | disqus | disqus_click | changyan
 comment:
-    use: disqus_click
+    use: false
     shortname: http-miccall-tech 
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
@@ -100,7 +99,7 @@ leancloud:
 
 # Busuanzi 不蒜子 Views
 busuanzi:
-    enable: true
+    enable: false
     all_site_uv: true
     post_pv: true
     busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
